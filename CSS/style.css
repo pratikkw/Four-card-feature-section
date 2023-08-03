@@ -68,8 +68,8 @@ body {
   background-color: var(--light-gray);
 
   /* Font size */
-  --sub-heading-fs: 1.5rem;
-  --primary-heading-fs: 1.5rem;
+  --sub-heading-fs: clamp(1.5rem, 2.25vw + 1rem, 2rem);
+  --primary-heading-fs: clamp(1.5rem, 2.25vw + 1rem, 2rem);
 
   /* Gap */
   --sub-main-gap: 4rem;
